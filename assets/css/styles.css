@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-color: black;
+    color: white;
+
+}
+
+.header{
+
+    text-align: center;
+    background: #FF416C;  
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.contenedor{
+
+    width: 50%;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+   
+}
+.botones.boton1{
+
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background: #FF416C;  
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: white;
+
+}
+.botones{
+
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.botones:hover{
+    border: 1px solid white;
+    background: #FF416C;  
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: white;
+}
+
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.computadora-cartas, .jugador-cartas{
+    height: 260px;
+}
+
+.cambiarTema{
+    background: #196F3D ;
+}
+
+.header2{
+
+    background: black;
+}
+#btnNuevoColor{
+
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}

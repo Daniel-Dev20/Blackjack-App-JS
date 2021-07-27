@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        BLACKJACK
+    </header>
+
+    <div class="contenedor">
+        <div class="content-btn">
+            <div class="btn">
+                <button id="btnNuevo" class="botones boton1">Nuevo Juego</button>
+                <button id="btnPedir" class="botones">Pedir Carta</button>
+                <button id="btnDetener" class="botones">Detener</button>
+                <button id="btnCambiar" class="botones">Cambiar Tema</button>
+            </div>
+        </div>
+    </div>
+    <div class="cartas-content">
+        <div class="col-cartas">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div class="jugador-cartas">
+                <!------
+                <img class="carta"  src="assets/cartas/10C.png">
+                <img class="carta" src="assets/cartas/2H.png">
+                <img class="carta" src="assets/cartas/4C.png">
+                ----->
+            </div>
+        </div>
+    </div>
+
+    <div class="cartas-content">
+        <div class="col-cartas">
+            <h1>Computadora - <small>0</small></h1>
+            <div class="computadora-cartas">
+                <!-------
+                <img class="carta"  src="assets/cartas/10C.png">
+                <img class="carta" src="assets/cartas/2H.png">
+                <img class="carta" src="assets/cartas/4C.png">
+
+            -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="assets/js/juego.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.8.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
